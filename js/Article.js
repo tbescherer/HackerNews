@@ -48,7 +48,7 @@ var Article = React.createClass({
         return (
           <div className="article-vote">
             <a href={'https://news.ycombinator.com/vote?for=' + this.props.item.id + '&dir=up&whence=news'}>
-              <img src="./img/grayarrow2x.gif" width="10"/>
+              <img src="/img/grayarrow2x.gif" width="10"/>
             </a>
           </div>
         );
