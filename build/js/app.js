@@ -1629,7 +1629,7 @@ var Navbar = React.createClass({displayName: "Navbar",
   getLogo: function () {
     return (
       React.createElement("div", {className: "navbar-logo"}, 
-        React.createElement("a", {href: "https://www.ycombinator.com"}, React.createElement("img", {src: "/img/y18.gif"}))
+        React.createElement("a", {href: "https://www.ycombinator.com"}, React.createElement("img", {src: "./img/y18.gif"}))
       )
     );
   },
