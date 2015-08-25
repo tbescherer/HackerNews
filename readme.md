@@ -1,8 +1,8 @@
 # Hacker News Clone
-  This is a clone of the popular news aggregation site Hacker News. It makes use of the API provided by the creators of hacker news to pull current top articles from the Firebase database.
+  This is a clone of the popular news aggregation site Hacker News. It was made with some reference to https://github.com/mking/react-hn .It makes use of the API provided by the creators of hacker news to pull current top articles from the Firebase database.
 
 ##Guide to Repo
- This project primarily uses jQuery and React..
+ This project primarily uses jQuery and React.
 
 ##How to Use
   See the site live at https://hackernews-tbescherer.c9.io/
@@ -14,5 +14,7 @@
   - Browserify to compile JSX
   - NPM to install packages
   - Underscore to extend JavaScript functionality
+  - Moment to give time since posting
+  
 ##Questions
   If you have any questions, I can be reached at Tbescherer@gmail.com
