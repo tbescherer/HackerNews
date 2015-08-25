@@ -1,0 +1,45 @@
+.article {
+    color: #828282;
+    margin-top: 5px;
+    align-items: baseline;
+    display: flex;  
+}
+
+.article-titleLink {
+  color: black;
+  font-size: 10pt;
+  text-decoration: none;
+}
+
+.article-domain {
+  font-size: 8pt;
+  margin-left: 5px;
+}
+
+.article-subtext {
+  font-size: 7pt;
+}
+
+.article-subtext > a {
+  color: #828282;
+  text-decoration: none;
+}
+
+.article-subtext > a:hover {
+  text-decoration: underline;
+}
+
+.article-itemText {
+  flex-grow: 1;
+}
+
+.article-rank {
+  flex-basis: 25px;
+  font-size: 10pt;
+  text-align: right;
+}
+
+.article-vote {
+  flex-basis: 15px;
+  text-align: center;
+}
