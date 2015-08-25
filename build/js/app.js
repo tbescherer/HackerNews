@@ -1563,7 +1563,7 @@ var Article = React.createClass({displayName: "Article",
         return (
           React.createElement("div", {className: "article-vote"}, 
             React.createElement("a", {href: 'https://news.ycombinator.com/vote?for=' + this.props.item.id + '&dir=up&whence=news'}, 
-              React.createElement("img", {src: "./img/grayarrow2x.gif", width: "10"})
+              React.createElement("img", {src: "/img/grayarrow2x.gif", width: "10"})
             )
           )
         );
@@ -1629,7 +1629,7 @@ var Navbar = React.createClass({displayName: "Navbar",
   getLogo: function () {
     return (
       React.createElement("div", {className: "navbar-logo"}, 
-        React.createElement("a", {href: "https://www.ycombinator.com"}, React.createElement("img", {src: "./img/y18.gif"}))
+        React.createElement("a", {href: "https://www.ycombinator.com"}, React.createElement("img", {src: "/img/y18.gif"}))
       )
     );
   },
