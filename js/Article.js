@@ -1,6 +1,7 @@
 var $ = require('jquery');
 var React = require('react');
 var url = require('url')
+var moment = require('moment');
 var Article = React.createClass({
     
     getDomain: function() {
@@ -21,7 +22,7 @@ var Article = React.createClass({
     getSubtext: function () {
         return (
           <div className="article-subtext">
-            {this.props.item.score} points by <a href={'https://news.ycombinator.com/user?id=' + this.props.item.by}>{this.props.item.by}</a> 10 | {this.getCommentLink()}
+            {this.props.item.score} points by <a href={'https://news.ycombinator.com/user?id=' + this.props.item.by}>{this.props.item.by}</a> | {moment.utc(this.props.item.time * 1000).fromNow()} | {this.getCommentLink()}
           </div>
         );
     },
